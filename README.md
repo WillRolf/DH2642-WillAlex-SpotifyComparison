@@ -30,7 +30,7 @@ We use the Model-Presenter-View strusture as per the course's labs.
 <strong>presenters</strong>
 
 - <strong>VueRoot.js</strong> - The root for our Vue project.
-- <strong>app.js</strong> - 
+- <strong>app.js</strong> - The file is used to display the different screens depending on their hash.
 - <strong>searchPresenter.js</strong> - Presenter for the searchbar as well as the search results, connecting them to our model. This is in component state.
 - <strong>show.js</strong> - Used to be able to actually switch between different pages, component state.
 
