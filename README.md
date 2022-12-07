@@ -18,6 +18,10 @@ We use the Model-Presenter-View strusture as per the course's labs.
 
 ### public
 
+<strong>style.css</strong> - The css file containing all of our classes used in our HTML code.
+
+### src
+
 <strong></strong>
 
 
