@@ -18,12 +18,27 @@ We use the Model-Presenter-View strusture as per the course's labs.
 
 ### public
 
-<strong>style.css</strong> - The css file containing all of our classes used in our HTML code.
+- <strong>style.css</strong> - The css file containing all of our classes used in our HTML code.
 
 ### src
 
-<strong></strong>
+- <strong>SpotifyModel.js</strong> - Model for the entire program. Communicates with views via presenters, and has observers.
+- <strong>currencySource.js</strong> - Used to fetch data from the API and treat these HTTP responses accordingly.
+- <strong>firebaseModel.js</strong> - Used with firebase to deploy our project with persistence.
+- <strong>resolvePromise.js</strong> - Resolves promises by saving a promise state with promise, data and errors.
 
+<strong>presenters</strong>
+
+- <strong>VueRoot.js</strong> - The root for our Vue project.
+- <strong>app.js</strong> - 
+- <strong>searchPresenter.js</strong> - Presenter for the searchbar as well as the search results, connecting them to our model. This is in component state.
+- <strong>show.js</strong> - Used to be able to actually switch between different pages, component state.
+
+<strong>views</strong>
+
+- <strong>promiseNoData.js</strong> - Used to show the user if the data has been fetched and also shows a loading icon if the data is being fetched.
+- <strong>searchFormView.js</strong> - View file for the search bar itself where the user inputs what they want to search for. There is also a dropdown menu where the user gets to choose between artist and track (what type to search for) and a button for submitting the search.
+- <strong>searchResultsView.js</strong> - View file for displaying the search results after the user has pressed the "Search" button in searchFormView.js
 
 ## Project setup
 ```
