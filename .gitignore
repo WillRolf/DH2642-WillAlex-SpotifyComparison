@@ -21,3 +21,13 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+**/node_modules
+**/*~
+dist
+package-lock.json
+**/*solved*
+**/*Config.js*
+!telemetry.config.json
+/public/*.js
+/public/*.html
